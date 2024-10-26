@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolic</title>
+    <link rel="StyleSheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#PortFolic">Portfolic</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text home">
+                    <p>Front End Developer</p>
+                    <h1>Hi,I'm <span>Priyanka</span> How Are You</h1>
+
+                    </div>
+        </div>
+        </div>
+        
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="AB.png">
+                        </div>
+                   <div class="about-col-2">
+                     <h1 style="color: red;"  class="sub-title">About Me</h1><br>  
+                      <p  data-aos="fade-right"  data-aos-duration="1000" data-aos-delay="200"> Motivated front-end developer with a strong background in HTML,
+                        CSS, and JavaScript, seeking to leverage skills in building responsive and
+                        user-friendly websites. Eager to contribute to a dynamic team to create
+                        innovative and engaging web applications that enhance user
+                        experience.</p>
+                        <div class="tab-titles">
+                            <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+
+                            <p class="tab-link" onclick="opentab('ex')" >Experience</p>
+                            <p class="tab-link" onclick="opentab('edu')">Education </p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Html</span><br>Designing</li>
+                                    <li><span>Html</span><br>Designing</li>
+                                    <li><span>Html</span><br>Designing</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-contents" id="ex">
+                                    <ul>
+                                        <li><span>  CODEALPHA  OCT-2023 TO JAN-2024</span><br>Java Virtual Internship</li>
+                                       
+                                        </ul>
+                                    </div>
+                                    <div class="tab-contents" id="edu">
+                                        <ul>
+                                            <li><span>B.C.A - 2021-24 ALAGAPPA GOVT
+                                                ARTS COLLEGE </span>
+                                              <br>  Bachelor of Computer Applications
+                                              (82.65%)</li>
+                                            <li><span> HSC - 2021
+                                                ULAGAPPAR HR.SEC.SCHOOL</span><br>(88%)</li>
+                                            <li><span> SSLC -2019  SKT.GANDHI HIGH SCHOOL</span><br>(81%)</li>
+                                            </ul>
+                                        </div>
+                        
+                    </div>
+                    </div>
+            </div>
+            </div>
+<br>
+
+           <br><br><br><br>
+               
+                <div class="container">
+                    <h1 style="color: red;"  class="sub-title">Technology </h1><br> <br>
+                        <div class="Technology">
+                           
+                    <!-- <img src="Wrd.png" class=" techno Ht1" style="font-size:120px;color: white;"  ></i> -->
+                    <img src="Ja.png" class="techno" style="font-size:120px;color: white;" ></i>
+                    <img src="H.png" class=" techno Ht1" style="font-size:120px;color: white;" ></i>
+                    <img src="css.png" class=" techno" style="font-size:120px;color: white;"></i>
+                    <img src="Boot.png" class="techno Ht" style="font-size:120px;color: white;"></i>
+                    <img src="dbb.png" class="techno Ht1" style="font-size:120px;color: white;"  ></i>
+               </div>
+                </div>
+
+                <div id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="contact-left">
+                                <h1>Contact Me</h1>
+                                <p><i class="fas fa-paper-plane"></i>priyankalaxs@gmail.com</p>
+                                <p><i class="fas fa-phone-square-alt"></i>9025774310</p>
+                                <div class="social-icons">
+                                    <a href=""> <i class="fab fa-facebook" ></i></a>
+                                    <a href="">  <i class="fab fa-twitter-square"></i></a>
+                                    <a  href="https://github.com/Priyanka08-dev" target="_blank"> <i class="fab fa-github" ></i></a>
+                                    <a href="https://www.linkedin.com/in/priyanka-laxmi-73b027261/" target="_blank"> <i class="fab fa-linkedin" ></i></a>
+                                    </div>
+                                    <a href="PriyankaResume08.pdf (1).pdf" download class="btn">Download Cv</a>
+                            </div>
+                            <div class="contact-right">
+                                <form name="submit-to-google-sheet">
+                                    <input type="text" name="Name" placeholder="Your name" requried>
+                                    <input type="email" name="email" placeholder="Your Email" required>
+                                    <textarea name="Me" rows="6" placeholder="Your Message" required></textarea>
+                                    <button  class="btn btn2">submit</button> 
+                                    </form>
+                                    <p id="msg"></p>
+                                   
+                            </div>
+                    </div>
+                   
+                    </div>
+                    <div class="copyright">
+                        <p>Copyright @ Priyanka</p>
+                        </div>
+
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="index.js"></script>
+
+</body>
+</html>
